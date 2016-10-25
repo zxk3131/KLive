@@ -1,0 +1,10 @@
+PODS:
+  - LFLiveKit (2.3)
+
+DEPENDENCIES:
+  - LFLiveKit (~> 2.3)
+
+SPEC CHECKSUMS:
+  LFLiveKit: 76a5cb34509f8cbe25e3a95824cf80f36d36679b
+
+COCOAPODS: 0.39.0

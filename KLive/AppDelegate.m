@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  KLive
 //
-//  Created by 赵祥凯 on 16/10/25.
+//  Created by zxk on 16/06/25.
 //  Copyright © 2016年 zxk. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = [TabBarViewController new];
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

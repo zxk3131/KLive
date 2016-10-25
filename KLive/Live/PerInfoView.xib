@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PerInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3NA-nJ-c0g">
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hl1-Ea-Qdd">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="3Jo-yU-VGP"/>
+                                <constraint firstAttribute="width" constant="50" id="RPs-bG-4RS"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPg-tM-IkF">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="0.1986583418" blue="0.82034283890000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPr-Ie-nVJ">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="0.25103140229999998" blue="0.19691680010000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-if-yEf">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="0.25103140229999998" blue="0.19691680010000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.19722406910000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="jPg-tM-IkF" firstAttribute="leading" secondItem="Hl1-Ea-Qdd" secondAttribute="trailing" constant="10" id="8na-BT-s7N"/>
+                        <constraint firstItem="jPg-tM-IkF" firstAttribute="top" secondItem="Hl1-Ea-Qdd" secondAttribute="top" id="IgE-Sv-YBx"/>
+                        <constraint firstItem="gPr-Ie-nVJ" firstAttribute="leading" secondItem="jPg-tM-IkF" secondAttribute="leading" id="J2f-96-YB7"/>
+                        <constraint firstItem="gPr-Ie-nVJ" firstAttribute="bottom" secondItem="Hl1-Ea-Qdd" secondAttribute="bottom" id="K60-sB-9GF"/>
+                        <constraint firstItem="XPY-if-yEf" firstAttribute="leading" secondItem="gPr-Ie-nVJ" secondAttribute="trailing" constant="10" id="Ptf-69-naw"/>
+                        <constraint firstAttribute="height" constant="60" id="XnA-O2-Dvr"/>
+                        <constraint firstItem="Hl1-Ea-Qdd" firstAttribute="leading" secondItem="3NA-nJ-c0g" secondAttribute="leading" constant="10" id="Yhc-6d-py1"/>
+                        <constraint firstItem="XPY-if-yEf" firstAttribute="centerY" secondItem="gPr-Ie-nVJ" secondAttribute="centerY" id="eZU-qj-Jh9"/>
+                        <constraint firstItem="Hl1-Ea-Qdd" firstAttribute="top" secondItem="3NA-nJ-c0g" secondAttribute="top" constant="5" id="oRc-RE-jdK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3NA-nJ-c0g" secondAttribute="trailing" constant="20" id="4FZ-eP-73T"/>
+                <constraint firstItem="3NA-nJ-c0g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="A5H-Xf-mc0"/>
+                <constraint firstAttribute="bottom" secondItem="3NA-nJ-c0g" secondAttribute="bottom" id="bsh-Zb-SCZ"/>
+                <constraint firstItem="3NA-nJ-c0g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="kBc-rL-WdN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="anchorView" destination="3NA-nJ-c0g" id="i4N-TW-RE3"/>
+                <outlet property="headImageView" destination="Hl1-Ea-Qdd" id="aHt-3C-sTs"/>
+                <outlet property="nameLabel" destination="jPg-tM-IkF" id="v5J-m5-cOc"/>
+                <outlet property="peopleLabel" destination="gPr-Ie-nVJ" id="ueb-tg-QhR"/>
+                <outlet property="roomID" destination="XPY-if-yEf" id="70R-xj-FRc"/>
+            </connections>
+            <point key="canvasLocation" x="39" y="-220"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  KLive
+//
+//  Created by zxk on 16/06/25.
+//  Copyright © 2016年 zxk. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "SDWebImageDownloader.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+#import <IJKMediaFramework/IJKMediaFramework.h> //请看 README.md
+
+
+
+#define KColor(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define KBasicColor KColor(214,41,17)
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_h */
